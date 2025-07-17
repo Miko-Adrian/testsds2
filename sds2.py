@@ -57,4 +57,4 @@ def get_pubchem_data(chemical_name):
             if compound_response.status_code == 200:
                 compound_data = compound_response.json()
                 return {
-                    '
+                    '}
